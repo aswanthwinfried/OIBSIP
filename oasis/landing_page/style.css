@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("3409297.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.head{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 110px;
+    padding-top:70px ;
+    padding-left: 20px;
+    color: aqua;
+}
+.quotes{
+    font-size: 20px;
+    color:aqua;
+    margin-top: 20px;
+    text-align: center; 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 150px;
+    
+}  
+.btn button{
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: aqua;
+    color:aqua;
+    background-color:#041f3c;
+
+}
+.btn p{
+    padding: 15px;
+    border-radius: 40px;
+    
+}
+.about_pic{
+    margin: 50px;
+}
+.about h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.about_pic{
+    display: inline-block;
+}
+.about_pic img{
+    border-radius: 50px;
+    border-color: aqua;
+    border-style:solid;
+    
+}
+.about_content{
+    display: inline;
+}
+.about_content h3{
+    color:aqua;
+    width: 50%;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: #041f3c;
+    padding: 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: aqua;
+    
+}
+.btn2{
+    margin-left: 65%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn2 h3{
+    color:aqua;
+    font-size: 20px;
+}
+.btn2 button{
+    padding: 15px;
+    background-color: #041f3c;
+    border-radius: 50px;
+    border-color: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.section-heading{
+    font-size: 49px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.service-card{
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.service-card i{
+    font-size: 38px;
+    margin-bottom:20px;
+    color: #3498db;
+}
+.service-card h2{
+    font-size: 24px;
+    color:aqua;
+    margin-bottom: 10px;
+}
+.service-card p{
+    font-size: 15px;
+    color: aquamarine;
+    line-height: 1.5;
+}
+
+
+
+.contact-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 300px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title{
+    font-weight: 600;
+    color:aqua;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color:aqua;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border:2px solid #ff994f ;
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: aqua;
+    border-color: aqua;
+    gap: 10px;
+    border-radius: 50px;
+    background:#041f3c;
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
+ .footer h5{
+    font-size: 20px;
+    color: aqua;
+    margin:20px
+ }
